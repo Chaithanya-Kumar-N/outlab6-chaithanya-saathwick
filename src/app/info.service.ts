@@ -38,7 +38,7 @@ export class InfoService {
       'Something bad happened; please try again later.');
   }
 
-  getFeedback() {
+  getFeedback(): Observable<any> {
     return this.http.get<FeedbackFormat>(this.getFeedbackUrl).pipe(catchError(this.handleError));
   }
   postFeedback(feedbackFormat: FeedbackFormat): Observable<FeedbackFormat> {
