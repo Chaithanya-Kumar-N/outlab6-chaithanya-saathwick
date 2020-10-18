@@ -1,4 +1,4 @@
-<h2>FEEDBACK</h2>
+<h1>FEEDBACK</h1>
 <form *ngIf="feedbackFormat" [formGroup]="feedbackForm" (ngSubmit)="onSubmit()">
     <p>
         <label>name:
@@ -26,8 +26,8 @@
         <button type="submit">Submit</button>
     </p>
 </form>
-
+<h2>Feedback Given</h2>
 <div *ngIf="feedbackFormat"><span>name: </span>{{feedbackFormat.name}}</div>
 <div *ngIf="feedbackFormat"><span>email: </span>{{feedbackFormat.email}}</div>
-<div *ngIf="feedbackFormat"><span>feedback: </span>{{feedbackFormat.feedback}}</div>
+<div *ngIf="feedbackFormat"><span>feedback: </span>{{feedbackFormat.feedback}}</div> 
 <div *ngIf="feedbackFormat"><span>comment: </span>{{feedbackFormat.comment}}</div>

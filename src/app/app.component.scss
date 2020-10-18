@@ -1,0 +1,43 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: red;
+$secondary-color: aqua;
+$colora: grey;
+$colorb: rgb(18, 1, 93);
+
+
+nav {
+    text-align: center;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+ 
+  li { display: inline-block;vertical-align: middle;}
+
+  a
+  {
+    text-align: center;
+    display: inline-block ;
+    //margin-left : 30%;
+    padding: 15px 40px;
+    text-decoration: none;
+    color:$primary-color;
+    background-color:$secondary-color;    
+    align-items: center;
+  }
+
+
+}
+
+
+h1
+{
+    //margin:100px;
+    text-align: center;
+    display:block;
+    font-style: $font-stack;
+    background-color:$colora;
+    color:$colorb;
+    //background-color:$secondary-color;    
+}

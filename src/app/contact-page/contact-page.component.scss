@@ -1,0 +1,41 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: red;
+$secondary-color: aqua;
+$colora: grey;
+$colorb: rgb(18, 1, 93);
+h1
+{
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+    color:$colorb; 
+    font-style: $font-stack;
+    background-color:$colora;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block;vertical-align: middle;}
+
+  span
+  {
+      
+    text-align: center;
+    display: inline-block ;
+    //margin-left : 30%;
+    padding: 15px 30px;
+    text-decoration: none;
+    color:$primary-color;
+    background-color:$secondary-color;    
+    align-items: center;
+  }
+
+
+}
